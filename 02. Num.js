@@ -73,6 +73,7 @@ console.log(Math.random(199.99)) // 199 - возвращает целое чис
 // ===================== Math (практика) ============================
 
 // Функция выдает рандомное число при внесении мин и макс значения
+
 function getRandomBetween(min, max) {
     return Math.floor(Math.random() * (max - min + 1) + min)
 }
